@@ -1,0 +1,73 @@
+// Amber style for MultiMarkdown Composer
+// by Fletcher T. Penney
+
+{
+    autoZoomHorizontalPadding = 50;		// extra padding when we use autoZoom
+    backgroundColor = 000;
+    caretColor = c8c800;				// Make the cursor match the text
+    css = "body {background:#000;color:#c8c800;} table {  border: solid #c8c800;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid #c8c800;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid #c8c800;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid #c8c800;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid #c8c800;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid #c8c800;  border-width: 1px 0 0 0;} del {background:#fae6e6;} ins {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;} a {color: #c8c800;} hr {border-color: #c8c800}";
+    defaultFontName = "Courier New";
+    defaultFontSize = 12;
+    foregroundColor = c8c800;
+    markupForegroundColor = 66c8c800;
+	fullScreenWidth = 5000;				// Use big number to ensure we use full screen on any monitor
+    horizontalPadding = 20;				// Leave some space for margins when not zooming
+    lineLength = 80;					// Line length of 80 characters
+	lineHeight = 1.7;
+	selectionColor = 66c8c800;
+    bold =     {
+		bold = 1;
+    };
+    boldAndItalic =     {
+		bold = 1;
+		italic = 1;
+    };
+	codeBlock = {
+		backgroundColor = 66c8c800;
+	};
+    heading =     {
+		backgroundColor = 66c8c800;
+		bold = 1;
+    };
+    italic =     {
+		italic =1;
+    };
+	URL = {						// This is for any text that is styled as a link
+		foregroundColor = c8c800;	// Override the blue color for active links
+		underline = 1;				// Single underline
+	};
+	metadata = {
+		foregroundColor = 66c8c800;
+	};
+	comment = {
+		foregroundColor = 66c8c800;
+	};
+	criticAddition = {
+		foregroundColor = 00bb00;
+		markupForegroundColor = 00bb00;
+	};
+	criticDeletion = {
+		foregroundColor = dd0000;
+		markupForegroundColor = dd0000;
+	};
+	criticSubstitution = {
+		foregroundColor = ff8600;
+		markupForegroundColor = ff8600;
+	};
+	criticHighlight = {
+		foregroundColor = aa53a9;
+		markupForegroundColor = aa53a9;
+	};
+	criticComment = {
+		foregroundColor = 0000bb;
+		markupForegroundColor = 0000bb;
+	};
+	sidebars = {
+		textColor = c8c800;
+		highlightedTextColor = 000;
+		inactiveHighlightedTextColor = 000;
+		highlightColor = 514F15;
+		inactiveHighlightColor = 514F15;
+		backgroundColor = 000;
+	};
+}
