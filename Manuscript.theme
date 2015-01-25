@@ -23,7 +23,7 @@ textAlignment = 2;	//
 //	verticalPadding = float value;
 // 	autoZoomHorizontalPadding
 
-//	backgroundColor		// Hex color value
+	backgroundColor	= eee;	// Hex color value
 //	foregroundColor
 //	markupForegroundColor = 8000;	// Alpha value included for better compatibility
     								// with varying background colors
