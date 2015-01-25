@@ -17,7 +17,7 @@
 
 	kerning = 0;
 
-textAlignment = 2;	//
+	textAlignment = 2;	//
 
 //	horizontalPadding = float value;
 //	verticalPadding = float value;
@@ -29,24 +29,25 @@ textAlignment = 2;	//
     								// with varying background colors
 //	markupBackgroundColor
 
-//	caretColor 			// For the text insertion cursor
-//  selectionColor = 666;		// For selected text
+	caretColor = 000;			// For the text insertion cursor
+	selectionColor = 999;		// For selected text
 
 //	monoFontName = "Courier New";
 //	monoFontSize = 11;
 //	monoFontScale;
 
 // Preview
-//   css = "";
+//	Preview
+	css = "body {background:#eee;color:#000;font-family: Palatino; font-size:14px;line-height:170%;text-align:justify;} table {  border: solid black;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid gray;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid gray;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid gray;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid black;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid black;  border-width: 1px 0 0 0;} del  {background:#fae6e6;} ins  {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;}";
 
 	sidebars = {
 		// Colors for the sidebar assistants (e.g. Table of Contents)
-		// textColor = 666;
-		// highlightedTextColor;
-		// inactiveHighlightedTextColor;
-		// backgroundColor;
-		// highlightColor;
-		// inactiveHighlightColor;
+		textColor = 000;
+		highlightedTextColor = eee;
+		inactiveHighlightedTextColor = 000;
+		backgroundColor = eee;
+		highlightColor = 555;
+		inactiveHighlightColor = D7DBDF;
 	};
 
 //	Individual Elements can have:
