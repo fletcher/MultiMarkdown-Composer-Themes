@@ -9,15 +9,15 @@
 
 //	Basics (for the document as a whole)
 
-//	defaultFontName = "Font Family Name";
-//	defaultFontSize = float value;
+	defaultFontName = "Courier New";
+	defaultFontSize = 12;
 
-//	lineHeight = float value;
-//	lineLength = float value;
+	lineHeight = 2;
+	lineLength = 60;
 
-//	kerning = 0.15;
+	kerning = 0;
 
-//	textAlignment; 		// 1 = Justified, 2 = Left, 3 = Right, 4 = Center, 5 = Default
+textAlignment = 2;	//
 
 //	horizontalPadding = float value;
 //	verticalPadding = float value;
@@ -68,19 +68,17 @@
 //	kerning = float value;  less than or equal to 1.0
 
 //	leftIndent = float value;
-//	firstLineIndent = float value;
 //	rightIndent = float value;
+
 
     blockquote = {
     };
 
     bold = {
-    	bold = 1;
-    };
+	};
 
     boldAndItalic = {
-    	bold = 1;
-    	italic = 1;
+    	underline = 1;
     };
 
     bulletList = {	// Defaults to list if absent
@@ -133,13 +131,14 @@
 	};
 
     heading = {		// Can also use specific values for heading1 ... heading4
+    	textAlignment = 4;
     };
 
 	html = {
 	};
 
     italic = {
-    	italic = 1;
+    	underline = 1;
     };
 
     image = {
@@ -163,6 +162,10 @@
 	metadata = {
 	};
 
+	paragraph = {
+		firstLineIndent = 36;
+	};
+
     orderedList = {	// Defaults to list if absent
     };
 
@@ -181,6 +184,8 @@
 	};
 
 	URL = {
+		foregroundColor = 000;
+		underline = 0;
 	};
 
 }
