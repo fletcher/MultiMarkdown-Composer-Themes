@@ -1,0 +1,191 @@
+// Template style sheet for MultiMarkdown Composer
+//
+// Version 3
+//
+// by Fletcher T. Penney
+// http://multimarkdown.com
+
+{
+
+//	Basics (for the document as a whole)
+
+//	defaultFontName = "Font Family Name";
+//	defaultFontSize = float value;
+
+//	lineHeight = float value;
+//	lineLength = float value;
+
+	kerning = 0.15;
+
+//	horizontalPadding = float value;
+//	verticalPadding = float value;
+// 	autoZoomHorizontalPadding
+
+	backgroundColor	= 333;	// Hex color value
+	foregroundColor = aaa;
+	markupForegroundColor = 66737F;	// Alpha value can be included for better compatibility
+    								// with varying background colors
+//	markupBackgroundColor
+
+	caretColor = aaa;			// For the text insertion cursor
+	selectionColor = 666;		// For selected text
+
+	monoFontName = "Courier New";
+//	monoFontSize = 11;
+	monoFontScale = 0.92;
+
+//	Preview
+	css = "body {background:#333;color:#aaa;font-family: Palatino; font-size:14px;line-height:170%;text-align:justify;} table {  border: solid #aaa;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid gray;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid gray;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid gray;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid #aaa;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid #aaa;  border-width: 1px 0 0 0;} del  {background:#fae6e6;} ins  {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;} a {color: #66737F;} hr {border-color: #aaa;}";
+
+	sidebars = {
+		// Colors for the sidebar assistants (e.g. Table of Contents)
+		textColor = aaa;
+		highlightedTextColor = 333;
+		inactiveHighlightedTextColor = aaa;
+		backgroundColor = 333;
+		highlightColor = aaa;
+		inactiveHighlightColor = 4A5259;
+	};
+
+//	Individual Elements can have:
+//	fontName
+//	fontSize
+//	fontScale = float value;  Scale font relative to default size
+//	bold = 1 or 0;
+//	italic = 1 or 0;
+//	underline (0 = none; 1 = single; 2 = thick; 9 = double)
+//	foregroundColor = hex color;
+//	backgroundColor = hex color;
+//	markupForegroundColor = hex color;
+//	markupBackgroundColor = hex color;
+//	kerning = float value;  less than or equal to 1.0
+//	leftIndent = float value;
+//	rightIndent = float value;
+//	mono = 1 or 0;
+
+
+    blockquote = {
+    };
+
+    bold = {
+    	bold = 1;
+    };
+
+    boldAndItalic = {
+    	bold = 1;
+    	italic = 1;
+    };
+
+    citation = {
+		foregroundColor = 66737F;
+	};
+
+	comment = {
+	};
+
+	criticAddition = {
+		foregroundColor = 00bb00;
+		markupForegroundColor = 00bb00;
+	};
+	
+	criticDeletion = {
+		foregroundColor = bb0000;
+		markupForegroundColor = bb0000;
+	};
+	
+	criticSubstitution = {
+		foregroundColor = CC6B00;
+		markupForegroundColor = CC6B00;
+	};
+	
+	criticHighlight = {
+		foregroundColor = aa53a9;
+		markupForegroundColor = aa53a9;
+	};
+	
+	criticComment = {
+		foregroundColor = 6666CC;
+		markupForegroundColor = 6666CC;
+	};
+
+    codeSpan = {
+    	mono = 1;
+    };
+
+	codeBlock = {
+		mono = 1;
+		foregroundColor = 66737F;
+		backgroundColor = 2240607F;
+	};
+
+    footnote = {
+		foregroundColor = 40607F;
+	};
+
+    heading = {		// Can also use specific values for heading1 ... heading4
+    	bold = 1;
+   		backgroundColor = 2240607F;
+		fontScale = 1.1;
+    };
+
+	html = {
+	};
+
+    italic = {
+    	italic = 1;
+    };
+
+    image = {
+		foregroundColor = 66737F;
+    };
+    
+    label = {
+		foregroundColor = 66737F;
+	};
+
+    link = {
+//		foregroundColor = 777;
+		foregroundColor = 66737F;
+    };
+
+    linkdefinition = {
+    	foregroundColor = 66737F;
+	};
+
+    list = {
+    };
+
+	math = {
+		foregroundColor = 66737F;
+	};
+
+	metadata = {
+		foregroundColor = 777;
+	};
+
+	subscript = {
+		superscript = -1;
+		fontScale = 0.65;
+	};
+
+	superscript = {
+		superscript = 1;
+		fontScale = 0.65;
+	};
+
+    table = {
+    		backgroundColor = 2240607F;
+	};
+
+    tablecaption = {
+	};
+
+	URL = {
+		foregroundColor = 66737F;
+		underline = 1;
+	};
+
+    variable = {
+    };
+
+}

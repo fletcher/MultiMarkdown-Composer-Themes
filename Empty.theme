@@ -1,0 +1,184 @@
+// Template style sheet for MultiMarkdown Composer
+//
+// Version 3
+//
+// by Fletcher T. Penney
+// http://multimarkdown.com
+
+{
+
+//	Basics (for the document as a whole)
+
+//	defaultFontName = "Font Family Name";
+//	defaultFontSize = float value;
+
+//	lineHeight = float value;
+//	lineLength = float value;
+
+//	kerning = 0.15;
+
+//	horizontalPadding = float value;
+//	verticalPadding = float value;
+// 	autoZoomHorizontalPadding
+
+//	backgroundColor		// Hex color value
+//	foregroundColor
+//	markupForegroundColor = 8000;	// Alpha value included for better compatibility
+    								// with varying background colors
+//	markupBackgroundColor
+
+//	caretColor 			// For the text insertion cursor
+//  selectionColor = 666;		// For selected text
+
+//	monoFontName = "Courier New";
+//	monoFontSize = 11;
+//	monoFontScale;
+
+// Preview
+//   css = "";
+
+	sidebars = {
+		// Colors for the sidebar assistants (e.g. Table of Contents)
+		// textColor = 666;
+		// highlightedTextColor;
+		// inactiveHighlightedTextColor;
+		// backgroundColor;
+		// highlightColor;
+		// inactiveHighlightColor;
+	};
+
+//	Individual Elements can have:
+
+//	fontName
+//	fontSize
+//	fontScale = float value;  Scale font relative to default size
+//	mono = 1 or 0;
+
+//	bold = 1 or 0;
+//	italic = 1 or 0;
+//	underline (0 = none; 1 = single; 2 = thick; 9 = double)
+
+//	foregroundColor = hex color;
+//	backgroundColor = hex color;
+//	markupForegroundColor = hex color;
+//	markupBackgroundColor = hex color;
+
+//	kerning = float value;  less than or equal to 1.0
+
+//	leftIndent = float value;
+//	rightIndent = float value;
+
+
+    blockquote = {
+    };
+
+    bold = {
+    	bold = 1;
+    };
+
+    boldAndItalic = {
+    	bold = 1;
+    	italic = 1;
+    };
+
+    bulletList = {	// Defaults to list if absent
+    };
+
+    citation = {	// Defaults to label if absent
+	};
+
+	comment = {
+	};
+
+	criticAddition = {
+		foregroundColor = 00bb00;
+		markupForegroundColor = 00bb00;
+	};
+	
+	criticDeletion = {
+		foregroundColor = dd0000;
+		markupForegroundColor = dd0000;
+	};
+	
+	criticSubstitution = {
+		foregroundColor = ff8600;
+		markupForegroundColor = ff8600;
+	};
+	
+	criticHighlight = {
+		foregroundColor = aa53a9;
+		markupForegroundColor = aa53a9;
+	};
+	
+	criticComment = {
+		foregroundColor = 0000bb;
+		markupForegroundColor = 0000bb;
+	};
+
+    codeSpan = {
+    };
+
+	codeBlock = {
+	};
+
+    footnote = {	// Defaults to label if absent
+    };
+
+    footnoteDefinition = {	// Defaults to linkDefinition if absent
+	};
+
+    glossaryDefinition = {	// Defaults to linkDefinition if absent
+	};
+
+    heading = {		// Can also use specific values for heading1 ... heading4
+    };
+
+	html = {
+	};
+
+    italic = {
+    	italic = 1;
+    };
+
+    image = {
+    };
+    
+    label = {
+	};
+
+    link = {
+    };
+
+    linkDefinition = {
+    };
+
+    list = {
+    };
+
+	math = {
+	};
+
+	metadata = {
+	};
+
+    orderedList = {	// Defaults to list if absent
+    };
+
+	subscript = {
+		superscript = -1;
+	};
+
+	superscript = {
+		superscript = 1;
+	};
+
+    table = {
+    };
+
+    tablecaption = {	// Defaults to label if absent
+	};
+
+	URL = {
+	};
+
+}
