@@ -67,6 +67,8 @@
 
 //	kerning = float value;  less than or equal to 1.0
 
+// 	These don't apply to all elements
+//	textAlignment; 		// 1 = Justified, 2 = Left, 3 = Right, 4 = Center, 5 = Default
 //	leftIndent = float value;
 //	firstLineIndent = float value;
 //	rightIndent = float value;
