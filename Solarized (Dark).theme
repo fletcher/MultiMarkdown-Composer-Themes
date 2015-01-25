@@ -1,0 +1,135 @@
+/*
+	Solarized (dark) MultiMarkdown Composer style
+	by Fletcher T. Penney
+	
+	Designed based on the solarized-dark palette
+	
+	
+	http://ethanschoonover.com/solarized
+	
+	SOLARIZED   HEX    
+	base03      #002b36
+	base02      #073642
+	base01      #586e75
+	base00      #657b83
+	base0       #839496
+	base1       #93a1a1
+	base2       #eee8d5
+	base3       #fdf6e3
+	yellow      #b58900
+	orange      #cb4b16
+	red         #dc322f
+	magenta     #d33682
+	violet      #6c71c4
+	blue        #268bd2
+	cyan        #2aa198
+	green       #859900
+*/
+{
+	// basics
+	autoZoomHorizontalPadding = 50;
+//	lineHeight = 1.7;
+
+	// Mode-dependent colors
+	foregroundColor = 839496;	// base0
+	backgroundColor = 002b36;	// base03
+    css = "body {background:#002b36;color:#839496;font-family: Cochin; font-size:16px;} table {  border: solid #839496;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid #839496;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid #839496;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid #839496;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid #839496;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid #839496;  border-width: 1px 0 0 0;} del  {background:#fae6e6;} ins  {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;} a {color: #2aa198;} hr {border-color: #839496;}";
+	caretColor = fdf6e3;		// base3
+	selectionColor = eee8d5;	// base2
+	monoFontName = "Courier New";
+	bold = {
+		bold = 1;
+		markupForegroundColor = 93a1a1;	// base1
+	};
+	italic = {
+		italic = 1;
+		markupForegroundColor = 93a1a1;	// base1
+	};
+	boldAndItalic = {
+		bold = 1;
+		italic = 1;
+		markupForegroundColor = 93a1a1;	// base1
+	};
+	heading = {
+		foregroundColor = 93a1a1;		// base1
+		backgroundColor = 073642;		// base02
+		markupForegroundColor = 586e75; // base01
+		bold = 1;
+	};
+	codeSpan = {
+		foregroundColor = 2aa198;		// cyan
+		markupForegroundColor = 586e75;	// base01
+		mono = 1;
+	};
+	codeBlock = {
+		foregroundColor = 2aa198;		// cyan
+		backgroundColor = 073642;		// base02
+		mono = 1;
+	};
+	html = {
+		foregroundColor = 2aa198;		// cyan
+		markupForegroundColor = 586e75;	// base01
+		mono = 1;
+	};
+	link = {
+		foregroundColor = 2aa198;		// cyan
+		markupForegroundColor = 586e75;	// base01
+	};
+	math = {
+		foregroundColor = 859900;		// green
+		markupForegroundColor = 586e75;	// base01
+	};
+	metadata = {
+		foregroundColor = 586e75;		// base01
+	};
+	
+	// Color scheme (not mode-dependent)
+	list = {
+		markupForegroundColor = b58900;	// yellow
+	};
+	blockquote = {
+		markupForegroundColor = b58900; // yellow
+	};
+	URL = {
+		foregroundColor = 2aa198;		// cyan
+		underline = 1;
+	};
+	comment = {
+		markupForegroundColor = 859900;
+		foregroundColor = 859900;
+	};
+	criticAddition = {
+		foregroundColor = 00bb00;
+		markupForegroundColor = 00bb00;
+	};
+	criticDeletion = {
+		foregroundColor = dd0000;
+		markupForegroundColor = dd0000;
+	};
+	criticSubstitution = {
+		foregroundColor = ff8600;
+		markupForegroundColor = ff8600;
+	};
+	criticHighlight = {
+		foregroundColor = aa53a9;
+		markupForegroundColor = aa53a9;
+	};
+	criticComment = {
+		foregroundColor = 0000bb;
+		markupForegroundColor = 0000bb;
+	};
+	superscript = {
+		superscript = 1;
+	};
+	subscript = {
+		superscript = -1;
+	};
+	sidebars = {
+		textColor = 839496;
+		highlightedTextColor = 2aa198;
+		inactiveHighlightedTextColor = 2aa198;
+		highlightColor = 073642;
+		inactiveHighlightColor = 073642;
+		backgroundColor = 002b36;
+	};
+}

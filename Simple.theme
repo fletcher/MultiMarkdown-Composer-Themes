@@ -1,0 +1,81 @@
+// Simple style for MultiMarkdown Composer
+// by Fletcher T. Penney
+
+{
+    autoZoomHorizontalPadding = 50;		// extra padding when we use autoZoom
+    backgroundColor = f2f2f2;
+    caretColor = 3c3c3c;				// Make the cursor match the text
+    defaultFontName = Cochin;
+    defaultFontSize = 15;				// Not so important since we use autoZoom
+	monoFontName = "Courier New";
+	monoFontSize = 13;
+//	focusMode = 1;
+//	typewriterMode = 1;
+    foregroundColor = 3c3c3c;
+    markupForegroundColor = b8b8b8;
+    horizontalPadding = 50;				// Leave some space for margins when not zooming
+//	lineHeight = 1.7;
+    lineLength = 65;
+	selectionColor = ccb8b8b8;			// Use grey when selecting - alpha ensures contrast
+    css = "body {background:#f2f2f2;color:#3c3c3c;font-family: Cochin; font-size:16px;} table {  border: solid #3c3c3c;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid gray;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid gray;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid gray;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid #3c3c3c;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid #3c3c3c;  border-width: 1px 0 0 0;} del  {background:#fae6e6;} ins  {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;} a {color: #3c3c3c;}";
+    bold =     {
+		bold = 1;
+    };
+    boldAndItalic =     {
+		bold = 1;
+		italic = 1;
+    };
+	codeBlock = {
+		backgroundColor = 66b8b8b8;
+		mono = 1;
+	};
+    codeSpan =     {
+		mono = 1;
+    };
+	html = {
+		mono = 1;
+	};
+    heading =     {
+		bold = 1;
+    };
+    italic =     {
+		italic = 1;
+    };
+	URL = {
+		foregroundColor = 3c3c3c;
+		underline = 1;
+	};
+	comment = {
+		foregroundColor = b8b8b8;
+	};
+	criticAddition = {
+		foregroundColor = 00bb00;
+		markupForegroundColor = 00bb00;
+	};
+	criticDeletion = {
+		foregroundColor = dd0000;
+		markupForegroundColor = dd0000;
+	};
+	criticSubstitution = {
+		foregroundColor = ff8600;
+		markupForegroundColor = ff8600;
+	};
+	criticHighlight = {
+		foregroundColor = aa53a9;
+		markupForegroundColor = aa53a9;
+	};
+	criticComment = {
+		foregroundColor = 0000bb;
+		markupForegroundColor = 0000bb;
+	};
+	superscript = {
+		superscript = 1;
+	};
+	subscript = {
+		superscript = -1;
+	};
+	sidebars = {
+		textColor = 3c3c3c;
+		backgroundColor = f2f2f2;
+	};
+}

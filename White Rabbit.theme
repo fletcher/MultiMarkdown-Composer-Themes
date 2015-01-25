@@ -1,0 +1,77 @@
+// White Rabbit style for MultiMarkdown Composer
+// by Fletcher T. Penney
+
+{
+    autoZoomHorizontalPadding = 50;		// extra padding when we use autoZoom
+    backgroundColor = 000;
+    caretColor = 00FF1A;				// Make the cursor match the text
+    css = "body {background:#000;color:#00FF1A;} table {  border: solid #00FF1A;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid #00FF1A;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid #00FF1A;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid #00FF1A;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid #00FF1A;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid #00FF1A;  border-width: 1px 0 0 0;} del  {color:#FF001A;} ins  {background:#6600FF1A;} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;} a {color: #00FF1A;} hr {border-color: #00FF1A;}";
+    defaultFontName = "Courier New";
+    defaultFontSize = 12;				// Not so important since we use autoZoom
+//	typewriterMode = 1;
+    foregroundColor = 00FF1A;
+    markupForegroundColor = 6600FF1A;
+	fullScreenWidth = 5000;				// Use big number to ensure we use full screen on any monitor
+    horizontalPadding = 20;				// Leave some space for margins when not zooming
+verticalPadding = 100;
+//	justifyText = 0;					// Don't justify text lines
+    lineLength = 80;					// Line length of 80 characters
+//	lineHeight = 1.7;
+	selectionColor = 6600FF1A;			// Use green when selecting - alpha ensures contrast
+    autoZoom = 1;
+    bold =     {
+		bold = 1;
+    };
+    boldAndItalic =     {
+		bold = 1;
+		italic = 1;
+    };
+	codeBlock = {
+		backgroundColor = 6600FF1A;
+	};
+    heading =     {
+		backgroundColor = 6600FF1A;
+		bold = 1;
+    };
+    italic =     {
+		italic = 1;
+    };
+	URL = {						// This is for any text that is styled as a link
+		foregroundColor = 00FF1A;	// Override the blue color for active links
+		underline = 1;				// Single underline
+	};
+	metadata = {
+		foregroundColor = 9900FF1A;
+	};
+	comment = {
+		foregroundColor = 6600FF1A;
+	};
+	criticAddition = {
+		foregroundColor = 00bb00;
+		markupForegroundColor = 00bb00;
+	};
+	criticDeletion = {
+		foregroundColor = dd0000;
+		markupForegroundColor = dd0000;
+	};
+	criticSubstitution = {
+		foregroundColor = ff8600;
+		markupForegroundColor = ff8600;
+	};
+	criticHighlight = {
+		foregroundColor = aa53a9;
+		markupForegroundColor = aa53a9;
+	};
+	criticComment = {
+		foregroundColor = 0000bb;
+		markupForegroundColor = 0000bb;
+	};
+	sidebars = {
+		textColor = 00FF1A;
+		highlightedTextColor = 000;
+		inactiveHighlightedTextColor = 000;
+		highlightColor = 19660F;
+		inactiveHighlightColor = 19660F;
+		backgroundColor = 000;
+	};
+}

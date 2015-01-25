@@ -1,0 +1,75 @@
+// Default style for MultiMarkdown Composer
+// by Fletcher T. Penney
+{
+    autoZoomHorizontalPadding = 50;
+    backgroundColor = fff;
+    caretColor = 000;
+    defaultFontSize = 12;
+//	focusMode = 0;
+    foregroundColor = 000;
+    markupForegroundColor = 8000;
+    lineLength = 75;
+//	lineHeight = 1.7;
+	monoFontName = "Courier New";
+	monoFontSize = 11;
+    css = "body {background:#fff;color:#000;font-family: Palatino; font-size:14px;line-height:170%;text-align:justify;} table {  border: solid black;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid gray;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid gray;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid gray;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid black;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid black;  border-width: 1px 0 0 0;} del  {background:#fae6e6;} ins  {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;}";
+   	default = {
+		kerning = 0.15;
+   	};
+    heading =     {
+        backgroundColor = 16000000;
+    };
+    bold =     {
+		bold = 1;
+    };
+    italic =     {
+		italic = 1;
+    };
+    boldAndItalic =     {
+		bold = 1;
+		italic = 1;
+    };
+    codeSpan =     {
+		mono = 1;
+    };
+	codeBlock = {
+		backgroundColor = 16000000;
+		mono = 1;
+	};
+	html = {
+		backgroundColor = 16000000;
+		mono = 1;
+	};
+	metadata = {
+		foregroundColor = 777;
+	};
+	comment = {
+		foregroundColor = 8000;
+	};
+	criticAddition = {
+		foregroundColor = 00bb00;
+		markupForegroundColor = 00bb00;
+	};
+	criticDeletion = {
+		foregroundColor = dd0000;
+		markupForegroundColor = dd0000;
+	};
+	criticSubstitution = {
+		foregroundColor = ff8600;
+		markupForegroundColor = ff8600;
+	};
+	criticHighlight = {
+		foregroundColor = aa53a9;
+		markupForegroundColor = aa53a9;
+	};
+	criticComment = {
+		foregroundColor = 0000bb;
+		markupForegroundColor = 0000bb;
+	};
+	superscript = {
+		superscript = 1;
+	};
+	subscript = {
+		superscript = -1;
+	};
+}
