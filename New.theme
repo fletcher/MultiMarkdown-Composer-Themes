@@ -143,6 +143,9 @@
 		foregroundColor = 40607F;
 	};
 
+    linebreak = {
+    };
+
     link = {
 //		foregroundColor = 777;
 		foregroundColor = 40607F;
