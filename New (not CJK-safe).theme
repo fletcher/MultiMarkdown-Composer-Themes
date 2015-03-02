@@ -5,9 +5,6 @@
 // by Fletcher T. Penney
 // http://multimarkdown.com
 
-// CJK characters are not compatible with changing the font via the style sheet.
-// This includes `mono`, `fontSize`, `fontScale`, etc.
-
 {
 
 //	Basics (for the document as a whole)
@@ -24,30 +21,30 @@
 //	verticalPadding = float value;
 // 	autoZoomHorizontalPadding
 
-	backgroundColor	= 333;	// Hex color value
-	foregroundColor = aaa;
-	markupForegroundColor = 66737F;	// Alpha value can be included for better compatibility
+	backgroundColor	= eee;	// Hex color value
+	foregroundColor = 000;
+	markupForegroundColor = 40607F;	// Alpha value can be included for better compatibility
     								// with varying background colors
 //	markupBackgroundColor
 
-	caretColor = aaa;			// For the text insertion cursor
-	selectionColor = 666;		// For selected text
+	caretColor = 000;			// For the text insertion cursor
+	selectionColor = 999;		// For selected text
 
 	monoFontName = "Courier New";
 //	monoFontSize = 11;
 	monoFontScale = 0.92;
 
 //	Preview
-	css = "body {background:#333;color:#aaa;font-family: Palatino; font-size:14px;line-height:170%;text-align:justify;} table {  border: solid #aaa;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid gray;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid gray;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid gray;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid #aaa;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid #aaa;  border-width: 1px 0 0 0;} del  {background:#fae6e6;} ins  {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;} a {color: #66737F;} hr {border-color: #aaa;}";
+	css = "body {background:#eee;color:#000;font-family: Palatino; font-size:14px;line-height:170%;text-align:justify;} table {  border: solid black;  border-width: 2px 0px;  empty-cells: hide;  border-spacing: 0px;  padding: 2px;  margin: 20px auto;}table caption {  margin: 5px;  text-align: center;  caption-side: bottom;}thead th {  border: solid gray;  border-width: 0 0 2px 0;  padding: 5px;}thead > tr:last-child > th { border-style: none; }tbody > tr:first-child > td {  border: solid gray;  border-width: 1px 0 0 0;}tbody > tr:first-child > th {  border: solid gray;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > td {  border: solid black;  border-width: 1px 0 0 0;}thead + tbody > tr:first-child > th {  border: solid black;  border-width: 1px 0 0 0;} del  {background:#fae6e6;} ins  {background:#ecfce6} a.footnote, a.citation {font-size: 0.83em; vertical-align: super;}";
 
 	sidebars = {
 		// Colors for the sidebar assistants (e.g. Table of Contents)
-		textColor = aaa;
-		highlightedTextColor = 333;
-		inactiveHighlightedTextColor = aaa;
-		backgroundColor = 333;
-		highlightColor = aaa;
-		inactiveHighlightColor = 4A5259;
+		textColor = 000;
+		highlightedTextColor = eee;
+		inactiveHighlightedTextColor = 000;
+		backgroundColor = eee;
+		highlightColor = 555;
+		inactiveHighlightColor = D7DBDF;
 	};
 
 //	Individual Elements can have:
@@ -80,7 +77,7 @@
     };
 
     citation = {
-		foregroundColor = 66737F;
+		foregroundColor = 40607F;
 	};
 
 	comment = {
@@ -92,13 +89,13 @@
 	};
 	
 	criticDeletion = {
-		foregroundColor = bb0000;
-		markupForegroundColor = bb0000;
+		foregroundColor = dd0000;
+		markupForegroundColor = dd0000;
 	};
 	
 	criticSubstitution = {
-		foregroundColor = CC6B00;
-		markupForegroundColor = CC6B00;
+		foregroundColor = ff8600;
+		markupForegroundColor = ff8600;
 	};
 	
 	criticHighlight = {
@@ -107,17 +104,17 @@
 	};
 	
 	criticComment = {
-		foregroundColor = 6666CC;
-		markupForegroundColor = 6666CC;
+		foregroundColor = 0000bb;
+		markupForegroundColor = 0000bb;
 	};
 
     codeSpan = {
-    	// mono = 1;
+    	mono = 1;
     };
 
 	codeBlock = {
-		// mono = 1;
-		foregroundColor = 66737F;
+		mono = 1;
+		foregroundColor = 40607F;
 		backgroundColor = 2240607F;
 	};
 
@@ -128,7 +125,7 @@
     heading = {		// Can also use specific values for heading1 ... heading4
     	bold = 1;
    		backgroundColor = 2240607F;
-		// fontScale = 1.1;
+		fontScale = 1.1;
     };
 
 	html = {
@@ -139,11 +136,11 @@
     };
 
     image = {
-		foregroundColor = 66737F;
+		foregroundColor = 40607F;
     };
     
     label = {
-		foregroundColor = 66737F;
+		foregroundColor = 40607F;
 	};
 
     linebreak = {
@@ -151,18 +148,18 @@
 
     link = {
 //		foregroundColor = 777;
-		foregroundColor = 66737F;
+		foregroundColor = 40607F;
     };
 
     linkdefinition = {
-    	foregroundColor = 66737F;
+    	foregroundColor = 40607F;
 	};
 
     list = {
     };
 
 	math = {
-		foregroundColor = 66737F;
+		foregroundColor = 40607F;
 	};
 
 	metadata = {
@@ -171,12 +168,12 @@
 
 	subscript = {
 		superscript = -1;
-		// fontScale = 0.65;
+		fontScale = 0.65;
 	};
 
 	superscript = {
 		superscript = 1;
-		// fontScale = 0.65;
+		fontScale = 0.65;
 	};
 
     table = {
@@ -187,7 +184,7 @@
 	};
 
 	URL = {
-		foregroundColor = 66737F;
+		foregroundColor = 40607F;
 		underline = 1;
 	};
 

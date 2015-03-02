@@ -5,6 +5,9 @@
 // by Fletcher T. Penney
 // http://multimarkdown.com
 
+// CJK characters are not compatible with changing the font via the style sheet.
+// This includes `mono`, `fontSize`, `fontScale`, etc.
+
 {
 
 //	Basics (for the document as a whole)
@@ -109,11 +112,11 @@
 	};
 
     codeSpan = {
-    	mono = 1;
+    	// mono = 1;
     };
 
 	codeBlock = {
-		mono = 1;
+		// mono = 1;
 		foregroundColor = 66737F;
 		backgroundColor = 2240607F;
 	};
@@ -125,7 +128,7 @@
     heading = {		// Can also use specific values for heading1 ... heading4
     	bold = 1;
    		backgroundColor = 2240607F;
-		fontScale = 1.1;
+		// fontScale = 1.1;
     };
 
 	html = {
@@ -168,12 +171,12 @@
 
 	subscript = {
 		superscript = -1;
-		fontScale = 0.65;
+		// fontScale = 0.65;
 	};
 
 	superscript = {
 		superscript = 1;
-		fontScale = 0.65;
+		// fontScale = 0.65;
 	};
 
     table = {
